@@ -1,4 +1,4 @@
-// Initialize butotn with users's prefered color
+// 获取
 let changeColor = document.getElementById("changeColor");
 
 chrome.storage.sync.get("color", ({color}) => {
